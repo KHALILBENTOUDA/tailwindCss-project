@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .myFlex{
+        @apply flex justify-center items-center;
+    }
+    .btn{
+        @apply bg-sky-500 rounded-[20px] px-[8%] py-[8px] text-white font-mono font-bold my-[30px] hover:bg-sky-400 duration-200 hover:scale-110
+    }
+    .btn-2{
+        @apply border-[0.25px]  border-sky-500 rounded-[20px] px-[8%] py-[8px] text-white font-mono font-bold my-[30px] hover:bg-sky-400 duration-200 hover:scale-110
+    }
+}
+body{
+    background-color: #1e283f;
+    max-width: 100%; 
+}
+
+#scrolle{
+    background-color: rgb(4, 18, 40);
+    
+}
+
+
